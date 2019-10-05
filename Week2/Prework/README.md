@@ -47,8 +47,12 @@ Al inicio de cada sesión, haremos preguntas sobre el Prework. Les recomendamos 
    7. Dentro de la sección de **Controls**, describe lo siguiente: 
 
    8. 1. Buttons
+         Los botones inicializan facciones especificas, pueden tener fondos, iconos o ser modificados al estilo que se      necesite. Existen varios tipos de botones diferenciados por las secciones donde se encuentren:
+         -Botones de sistema, botones de detalle, botones de informacion y botones de contacto.
+         
       2. Labels
-   
+      Las etiquedas desquibren elementos en la interfaz o proveen mensajes cortos. Las etiquetas pueden mostrar cualquier cantidad de informacion estatica pero por buenas practicas, es mejor mantener el mensaje breve.
+     
 5. Enlista tus 10 apps favoritas 
 
 6. Enlista y describe los cuatro pilares de la programación orientada a objetos 
@@ -61,14 +65,22 @@ Al inicio de cada sesión, haremos preguntas sobre el Prework. Les recomendamos 
    4. ¿Qué es una propiedad?
 
 9. Investiga y describe la arquitectura de diseño MVC 
+  El MVC o Modelo-Vista-Controlador es un patrón de arquitectura de software que, utilizando 3 componentes (Vistas, Models y Controladores) separa la lógica de la aplicación de la lógica de la vista en una aplicación. Es una arquitectura importante puesto que se utiliza tanto en componentes gráficos básicos hasta sistemas empresariales; 
+El modelo (la información de datos) contiene únicamente los datos puros de aplicación; no contiene lógica que describe cómo pueden presentarse los datos a un usuario.
+
+La vista (la información de presentación) presenta al usuario los datos del modelo. La vista sabe cómo acceder a los datos del modelo, pero no sabe el significado de estos datos ni lo que el usuario puede hacer para manipularlos.
+
+El controlador (la información de control) está entre la vista y el modelo. Escucha los sucesos desencadenados por la vista y ejecuta la reacción apropiada a estos sucesos. En la mayoría de los casos, la reacción es llamar a un método del modelo. Puesto que la vista y el modelo están conectados a través de un mecanismo de notificación, el resultado de esta acción se reflejará automáticamente en la vista.
 
 10. ¿Qué es un ViewController?
 
 11. ¿Qué es un Storyboard?
 
 12. ¿Qué es un IBAction?
+   Es una funcion que es llamada cuando sucede una interaccion especifica con el usuario.
 
 13. ¿Qué es un IBOutlet?
+    Es una variable que hace referencia a un elemento de UI.
 
 14. ¿Qué es la notación CamelCase y cuáles son sus tipos? ¿Conoces otro tipo de notación?
 
